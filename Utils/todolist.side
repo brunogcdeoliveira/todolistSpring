@@ -1,0 +1,140 @@
+{
+  "id": "b08d42de-fc7e-4417-86f5-c2a98b377959",
+  "version": "2.0",
+  "name": "todolist",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "945fd940-e8a9-4387-a4cb-fd0a1174a8f5",
+    "name": "Test1",
+    "commands": [{
+      "id": "b6b8d7b0-da75-4a11-96c6-e62ffa778574",
+      "comment": "",
+      "command": "open",
+      "target": "/swagger-ui/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e73955c1-8afb-4bb6-b348-e3f7d4e732c2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0db7b5a1-9209-4c5b-bdc9-1cec3b1158b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-put .arrow",
+      "targets": [
+        ["css=.opblock-summary-put .arrow", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "191a1afc-a02e-46e3-a108-d33b8394b62d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.body-param__example",
+      "targets": [
+        ["css=.body-param__example", "css:finder"],
+        ["xpath=//div[@id='x6h8BZs=']/div/pre", "xpath:idRelative"],
+        ["xpath=//div/pre", "xpath:position"],
+        ["xpath=//pre[contains(.,'{\n  \"id\": 0,\n  \"nome\": \"string\",\n  \"descricao\": \"string\",\n  \"realizado\": true,\n  \"prioridade\": 0\n}')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92e01e1e-9b61-41a9-b26c-3763547f5f89",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-put > .opblock-summary-control use",
+      "targets": [
+        ["css=.opblock-summary-put > .opblock-summary-control use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bca9698e-111b-4a38-82cb-525318f19ed4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.opblock-summary-get > .opblock-summary-control use",
+      "targets": [
+        ["css=.opblock-summary-get > .opblock-summary-control use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d20a603-8418-4015-9ae5-43e042f81b68",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.opblock-summary-get .arrow",
+      "targets": [
+        ["css=.opblock-summary-get .arrow", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1671e54d-5003-46a7-a2ae-b08f82e59ce8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.opblock-summary-get .arrow",
+      "targets": [
+        ["css=.opblock-summary-get .arrow", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eeab5de-315a-457e-9630-492c652e5e46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//div[@id='operations-todo-controller-list']/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Try it out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d60b46-86a6-45a8-b1f7-cd6220b4a16e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.execute",
+      "targets": [
+        ["css=.execute", "css:finder"],
+        ["xpath=//div[@id='operations-todo-controller-list']/div[2]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Execute')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a727ba9-a290-44e8-8d7e-65d5f79e8893",
+      "comment": "",
+      "command": "click",
+      "target": "css=.microlight:nth-child(3)",
+      "targets": [
+        ["css=.microlight:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='operations-todo-controller-list']/div[2]/div/div[3]/div[2]/div/div/table/tbody/tr/td[2]/div/div/pre", "xpath:idRelative"],
+        ["xpath=//td[2]/div/div/pre", "xpath:position"],
+        ["xpath=//pre[contains(.,'[\n  {\n    \"id\": 3,\n    \"nome\": \"compras\",\n    \"descricao\": \"comprar legumes\",\n    \"realizado\": false,\n    \"prioridade\": 3\n  },\n  {\n    \"id\": 2,\n    \"nome\": \"outra coisa\",\n    \"descricao\": \"lembrar outra coisa\",\n    \"realizado\": false,\n    \"prioridade\": 2\n  },\n  {\n    \"id\": 1,\n    \"nome\": \"teste\",\n    \"descricao\": \"lembrar de fazer tal coisa\",\n    \"realizado\": false,\n    \"prioridade\": 1\n  },\n  {\n    \"id\": 4,\n    \"nome\": \"Casa\",\n    \"descricao\": \"Arrumar a casa\",\n    \"realizado\": false,\n    \"prioridade\": 1\n  }\n]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "152ed710-f316-421a-863d-3e1adfbf62a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.microlight:nth-child(3)",
+      "targets": [
+        ["css=.microlight:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='operations-todo-controller-list']/div[2]/div/div[3]/div[2]/div/div/table/tbody/tr/td[2]/div/div/pre", "xpath:idRelative"],
+        ["xpath=//td[2]/div/div/pre", "xpath:position"],
+        ["xpath=//pre[contains(.,'[\n  {\n    \"id\": 3,\n    \"nome\": \"compras\",\n    \"descricao\": \"comprar legumes\",\n    \"realizado\": false,\n    \"prioridade\": 3\n  },\n  {\n    \"id\": 2,\n    \"nome\": \"outra coisa\",\n    \"descricao\": \"lembrar outra coisa\",\n    \"realizado\": false,\n    \"prioridade\": 2\n  },\n  {\n    \"id\": 1,\n    \"nome\": \"teste\",\n    \"descricao\": \"lembrar de fazer tal coisa\",\n    \"realizado\": false,\n    \"prioridade\": 1\n  },\n  {\n    \"id\": 4,\n    \"nome\": \"Casa\",\n    \"descricao\": \"Arrumar a casa\",\n    \"realizado\": false,\n    \"prioridade\": 1\n  }\n]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6e9a905b-b711-4eba-a0f1-bcedb2f940ed",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["945fd940-e8a9-4387-a4cb-fd0a1174a8f5"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}
